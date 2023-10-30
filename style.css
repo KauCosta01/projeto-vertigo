@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 /* 1 rem = 16px */
@@ -101,6 +101,7 @@ main {
 
 .login button {
     margin-top: 1rem;
+    margin-bottom: 2rem;
     padding-block: 1.6rem;
     width: 100%;
     background: var(--purple);
@@ -110,3 +111,29 @@ main {
     font-size: 1rem;
     font-weight: 600;
     color: var(--withe);
+}
+
+.login > p {
+    color: var(--gray-600);
+}
+
+.login > p a {
+    font-weight: 700;
+    font-size: 1rem
+}
+
+@media(min-width: 1000px) {
+    header {
+        background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+
+    header img {
+        width: 10rem;
+    }
+
+    main {
+        padding-inline: 7rem;
+    }
+}
